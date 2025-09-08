@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design 1 Labs | CSS Exercise 1: Intro / Syntax / Selectors</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="head">
+            <h2 id="title"><a href="../">DES070 Labs</a></h2>
+        </div>
+        <div class="sub-head"><h3>CSS Exercise 2: Display & Position: Selectors</h3></div>
+    
+        <div class="post">
+            <h2>CSS Display & Position</h2>
+            <h2>Hidden</h2>
+            <div class="hide-me">
+                <p>This is some hidden content.</p>
+            </div>
+
+            <h3>Block</h3>
+            <p>The display property specifies the display behavior (the type of rendering box) of an element.</p>
+            <div class="block-div">
+                <p>This is a line of text defined by its parent container.</p>
+            </div>
+
+            <h3>InLine</h3>
+            <p>Lorem ipsum <span class="inline">This is an inline span</span> dolor sit amet <em> emphasis</em> consectetur <strong> Bold tet </strong> elit.</p>
+        </div>
+
+        <div class="post">
+            <h2>CSS Positioning</h2>
+            <p>Used to alter the element's natural layout flow position on the page and customize it according to our needs. It can be used to fix an eleemnt somewhere on the page, give a relative or an absolute position, or no special position at all.</p>
+            
+            <h3>Static</h3>
+            <p>Static positioned elements are not affected by the top, bottom, left, and right porperties.</p>
+            <div class="static">This is a static positioned div.</div>
+
+            <h3>Fixed</h3>
+            <div class="fixed">This is a fixed div</div>
+
+            <div class="relative">
+                This div element has position: relative;
+            </div>
+
+            <h3>Absolute</h3>
+            <p>Absolute behaves like fixed except relative to the nearest positioned ancestor instead of relative to the viewport. If an absolutely-positioned element has no positioned ancestors, it uses the document body and still moves along with page scrolling.</p>
+            <div class="absolute-demo-holder">
+                <div class="absolute-bubble"></div>
+            </div>
+
+            <h3>Sticky</h3>
+            <p>Sticky is a hybrid between relative and fixed position, which allows an element to act like it is relatively positioned until is is scrolled to a certain point.</p>
+            <div class="sticky-demo-holder">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+            </div>
+
+            <div class="float-demo-holder">
+                <div class="img-right"><img src="../Assets/Catskills_2025_1"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis architecto quod voluptatem ullam earum voluptate temporibus dignissimos! Laudantium cumque, et incidunt dicta, magni, quisquam fugit nemo pariatur sequi impedit beatae!</p>
+            </div>
+
+        </div>
+
+
+         <footer>
+            <p>Copyright DES 070. Stuck between a rock and a hard place.</p>
+        </footer>
+    
+    </main>
+
+</body>
+</html>
