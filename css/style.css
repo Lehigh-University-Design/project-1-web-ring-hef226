@@ -43,8 +43,7 @@ footer {
         display: block;
     }
     a {
-        color: var(--light-color);
-        background-color: var(--link-color);
+        color: var(--medium-color);
         text-decoration: none;
     }
     a:hover {
