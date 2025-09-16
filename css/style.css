@@ -59,64 +59,63 @@ footer {
     padding: .5em 1em;
 }
 
-
-
-/* Three Column Grid  */
-.three-columns-grid {
-    display: grid;
-    grid-auto-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 1rem;
+#container{
+    width: 400px;
+}
+#floated{
+    float: left;
+    width: 400px;
+    margin-right: 20px
 }
 
-.three-columns-grid > * {
-    padding: 1rem;
-    border: 6px solid var(--dark-color);
-    margin-bottom: 1em;
+
+/*Two Column Images*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+
+/*Three Box Column*/
+.container {
+    display: flex;
     margin-top: 1em;
-    margin-inline: 1em;
-    img {
-        opacity: 1;
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
+    margin-bottom: 1em;
+    flex-wrap: nowrap;
+    gap: 1em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 
-        display: block;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
+.box {
+    border: 6px solid var(--dark-color);
+    padding: 1em;
+    width: calc((100% - 2em) / 3);
+    text-align: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
 
-    .container {
-        position: relative;
-        width: 100%;
-    }
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.25em;
+}
 
-    .middle {
-        width: 100%;
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: left;
-    }
+.box h2 {
+    font-size: 14px;
+    color: var(--dark-color);
+    text-align: left;
+}
 
-    .container:hover .image {
-        opacity: 0.3;
-    }
-
-    .container:hover .middle {
-        opacity: 1;
-    }
-
-    .text {
-        background-color: var(--lightest-color);
-        color: var(--dark-color);
-        font-size: 16px;
-        padding: 16px 32px;
-        align: left;
-    }
-
+.box p {
+    text-align: left;
+    font-size: 14px;
+    
 }
